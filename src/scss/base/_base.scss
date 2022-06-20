@@ -3,7 +3,7 @@ body {
   @extend %justify-space-between;
   @include font($ff-main, $fs-main, $lh-main, 400);
   color: $light-color;
-  background-color: $dark-color;
+  @extend %bg-color-additory;
 }
 
 .icon {

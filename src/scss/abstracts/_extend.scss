@@ -1,3 +1,8 @@
+/* Font */
+
+%font-bold {
+  font-weight: 700;
+}
 /* Text */
 
 %line-link {
@@ -7,6 +12,9 @@
   line-height: $lh-text;
 }
 
+%text-center {
+  text-align: center;
+}
 /* Hover */
 
 %transition {
@@ -29,8 +37,12 @@
 %main-color {
   color: $main-color;
 }
-%bg-color {
+%bg-color-main {
   background-color: $main-color;
+}
+
+%bg-color-additory {
+  background-color: $dark-color;
 }
 
 %bg-theme-color {

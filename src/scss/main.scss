@@ -7,6 +7,7 @@
 /* Utilities */
 
 @import 'utilities/container';
+@import 'utilities/section';
 
 /* Base */
 
@@ -17,7 +18,7 @@
 
 /* Components */
 
-@import 'components/languages';
+@import 'components/button';
 @import 'components/nav';
 @import 'components/burger';
 @import 'components/languages';
@@ -25,5 +26,7 @@
 /* Layout */
 
 @import 'layout/header';
+@import 'layout/intro';
+@import 'layout/skills';
 
 /*Themes */
