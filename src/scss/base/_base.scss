@@ -1,0 +1,16 @@
+body {
+  @extend %flex-column;
+  @extend %justify-space-between;
+  @include font($ff-main, $fs-main, $lh-main, 400);
+  color: $light-color;
+  background-color: $dark-color;
+}
+
+.icon {
+  @extend %transition;
+  @extend %cursor;
+  &:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
+      brightness(92%) contrast(87%);
+  }
+}

@@ -1,0 +1,8 @@
+h1 {
+  @include font($ff-second, 6rem, 12rem, 700);
+}
+
+h2 {
+  @include font($ff-second, 4rem, 8rem, 700);
+  @extend %main-color;
+}

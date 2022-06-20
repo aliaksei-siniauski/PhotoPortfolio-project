@@ -1,0 +1,41 @@
+/* Colors */
+
+$main-color: hsla(45, 31%, 63%, 1);
+$theme-color: hsla(0, 0%, 11%, 1);
+
+$dark-color: hsla(0, 0%, 0%, 1);
+$light-color: hsla(0, 0%, 100%, 1);
+
+/* font-size */
+
+$fs-main: 2rem; /*20px */
+$fs-text: 1.8rem; /* 18px */
+$fs-header-tablet: 3.2rem; /* 32px */
+
+/* fonts */
+
+$ff-main: 'Inter';
+$ff-second: 'Merriweather';
+
+/* line-height */
+
+$lh-main: 4rem;
+$lh-text: 3.6rem;
+$lh-link: 5rem;
+
+/*container-width */
+
+$container-main: 143rem; /* 1430px */
+$container-second: 69.4rem; /* 694px */
+
+/* width */
+
+$desktop-width: 1440px;
+$tablet-width: 768px;
+$mobile-width: 576px;
+
+/* Breakpoints */
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+);

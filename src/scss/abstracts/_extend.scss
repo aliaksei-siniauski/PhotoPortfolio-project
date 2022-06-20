@@ -1,0 +1,66 @@
+/* Text */
+
+%line-link {
+  line-height: $lh-link;
+}
+%line-text {
+  line-height: $lh-text;
+}
+
+/* Hover */
+
+%transition {
+  transition: 0.5s ease-in-out;
+}
+
+%cursor {
+  cursor: pointer;
+}
+
+%hover-color {
+  color: $main-color;
+}
+
+%hover-bg {
+  background: $main-color;
+}
+/* Color  */
+
+%main-color {
+  color: $main-color;
+}
+%bg-color {
+  background-color: $main-color;
+}
+
+%bg-theme-color {
+  background-color: $theme-color;
+}
+
+%dark-color {
+  color: $dark-color;
+}
+
+%dark-theme-color {
+  color: $theme-color;
+}
+
+/* flex */
+
+%flex-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%justify-space-between {
+  justify-content: space-between;
+}
+
+%align-center {
+  align-items: center;
+}

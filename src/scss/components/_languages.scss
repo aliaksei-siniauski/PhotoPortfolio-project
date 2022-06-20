@@ -1,0 +1,16 @@
+.languages {
+  width: 8.9rem;
+  height: 5rem;
+  @extend %flex-main;
+  @extend %justify-space-between;
+  @extend %align-center;
+  @extend %flex-main;
+  margin-right: 3.5rem;
+  font-weight: 700;
+  @extend %transition;
+  @extend %cursor;
+}
+
+.language-active {
+  color: $main-color;
+}
