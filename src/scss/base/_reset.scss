@@ -87,6 +87,17 @@ article {
   display: block;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: $main-color;
+  transition: background-color 0s ease-in-out 9000s;
+}
+
+textarea {
+  resize: none;
+}
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

@@ -1,5 +1,6 @@
 .skills-items {
   @include grid(grid, repeat(4, 1fr), 4rem);
+  padding-bottom: 1rem;
 }
 
 .skill-item {
@@ -29,7 +30,6 @@
 
 .skill-item__title {
   padding-top: 10rem;
-  @extend %font-bold;
 }
 
 .skill-item__description {

@@ -6,3 +6,15 @@ h2 {
   @include font($ff-second, 4rem, 8rem, 700);
   @extend %main-color;
 }
+h3 {
+  @include font($ff-second, 2.8rem, 5.6rem, 700);
+}
+
+h4 {
+  @include font($ff-second, 2.4rem, 4.8rem, 700);
+  @extend %main-color;
+}
+
+h5 {
+  @include font($ff-second, $fs-main, 4rem, 700);
+}
