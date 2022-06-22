@@ -1,10 +1,32 @@
 .header__nav {
-  margin-left: auto;
-  margin-right: 3.6rem;
+  margin: 0 3.6rem 0 auto;
+  @include media-tablet {
+    position: absolute;
+    top: 0;
+    right: -620px;
+    z-index: 20;
+    height: 100vh;
+    width: 62rem;
+    min-height: 102.4rem;
+    background: $dark-color;
+    margin-right: 0;
+    transition: 1s;
+  }
+  &.open-menu {
+    display: flex;
+    right: 0;
+  }
 }
 
 .nav-list {
   @extend %flex-main;
+  @include media-tablet {
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+    padding: 13.4rem 12.8rem;
+    font-size: 3.5rem;
+  }
 }
 
 .nav-list__item {

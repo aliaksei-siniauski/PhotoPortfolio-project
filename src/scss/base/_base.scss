@@ -4,6 +4,7 @@ body {
   @include font($ff-main, $fs-main, $lh-main, 400);
   color: $light-color;
   @extend %bg-color-additory;
+  overflow-x: hidden;
 }
 
 .icon {

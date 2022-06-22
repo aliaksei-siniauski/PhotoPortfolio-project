@@ -1,3 +1,36 @@
 .burger {
   display: none;
+  width: 5rem;
+  height: 2.8rem;
+  @extend %flex-column;
+  @extend %justify-center;
+  @extend %align-center;
+  margin-left: auto;
+  @extend %cursor;
+  user-select: none;
+  z-index: 100;
+  @include media-tablet {
+    display: flex;
+    margin: 0 0.1rem 0 3.3rem;
+  }
+  &.open-menu .line1 {
+    transform: rotate(-45deg) translate(-7px, 10px);
+  }
+  &.open-menu .line2 {
+    opacity: 0;
+  }
+  &.open-menu .line3 {
+    transform: rotate(45deg) translate(-7px, -11px);
+  }
+}
+.burger__item {
+  width: 100%;
+  height: 3rem;
+  background: $light-color;
+  @extend %transition;
+  @extend %bg-color-main;
+  z-index: 150;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 }
