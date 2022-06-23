@@ -8,4 +8,9 @@
   background-image: url('../images/bg.webp');
   background-position: center 0;
   background-repeat: no-repeat;
+  @include media-tablet {
+    background-image: url('../images/bg-tablet.webp');
+    background-position: center 0;
+    background-repeat: no-repeat;
+  }
 }

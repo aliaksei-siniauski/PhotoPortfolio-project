@@ -1,10 +1,18 @@
 h1 {
   @include font($ff-second, 6rem, 12rem, 700);
+  @include media-tablet {
+    font-size: $fs-header-tablet;
+    line-height: 6.4rem;
+  }
 }
 
 h2 {
   @include font($ff-second, 4rem, 8rem, 700);
   @extend %main-color;
+  @include media-tablet {
+    font-size: $fs-header-tablet;
+    line-height: $lh-main;
+  }
 }
 h3 {
   @include font($ff-second, 2.8rem, 5.6rem, 700);

@@ -3,7 +3,7 @@
   @include media-tablet {
     position: absolute;
     top: 0;
-    right: -620px;
+    right: -62rem;
     z-index: 20;
     height: 100vh;
     width: 62rem;
@@ -26,6 +26,7 @@
     justify-content: start;
     padding: 13.4rem 12.8rem;
     font-size: 3.5rem;
+    background: $dark-color;
   }
 }
 
@@ -44,4 +45,8 @@
   &:hover {
     @extend %hover-color;
   }
+}
+
+.opacity {
+  opacity: 0.3;
 }

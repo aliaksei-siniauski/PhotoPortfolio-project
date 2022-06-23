@@ -1,23 +1,37 @@
 .intro {
-  padding: 15.7rem 0 33rem 6.5rem;
+  min-height: 91rem;
+  padding: 15.7rem 0 0 6.5rem;
   background-image: url('../images/bg.webp');
   background-position: center -9.2rem;
   background-repeat: no-repeat;
+  @include media-tablet {
+    min-height: 59rem;
+    padding-top: 7.8rem;
+    padding-left: 0;
+    background-image: url('../images/bg-tablet.webp');
+    background-repeat: no-repeat;
+    background-position: center -9.2rem;
+  }
 }
 
 .intro-content {
   max-width: 50rem;
-}
-
-.intro-title {
-  @include font($ff-second, 6rem, 12rem, 700);
+  @include media-tablet {
+    max-width: 39rem;
+  }
 }
 
 .intro-text {
-  padding-top: 1.2rem;
-  padding-right: 3rem;
+  padding: 1.2rem 3rem 0 0;
+  @include media-tablet {
+    padding: 2rem 0 0;
+    line-height: 2.4rem;
+  }
 }
 
 .intro-button {
   margin-top: 2.4rem;
+  @include media-tablet {
+    margin-top: 5.8rem;
+  }
 }
