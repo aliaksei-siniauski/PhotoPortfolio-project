@@ -1,6 +1,9 @@
 .intro {
+<<<<<<< HEAD
   min-height: 91rem;
   padding: 15.7rem 0 0 6.5rem;
+=======
+>>>>>>> portfolio
   background-image: url('../images/bg.webp');
   background-position: center -9.2rem;
   background-repeat: no-repeat;
@@ -16,6 +19,7 @@
 
 .intro-content {
   max-width: 50rem;
+<<<<<<< HEAD
   @include media-tablet {
     max-width: 39rem;
   }
@@ -34,4 +38,14 @@
   @include media-tablet {
     margin-top: 5.8rem;
   }
+=======
+}
+
+.intro-text {
+  padding: 1.1rem 3rem 0 0;
+}
+
+.intro-button {
+  margin-top: 2.5rem;
+>>>>>>> portfolio
 }

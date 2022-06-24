@@ -24,5 +24,9 @@ h4 {
 }
 
 h5 {
+<<<<<<< HEAD
   @include font($ff-main, $fs-main, $lh-main, 700);
+=======
+  @include font($ff-main, $fs-main, 4rem, 700);
+>>>>>>>
 }
