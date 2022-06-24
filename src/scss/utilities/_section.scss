@@ -7,11 +7,12 @@
   @extend %text-center;
   @include media-tablet {
     max-width: 36.4rem;
-    padding: 1rem 0 5rem;
+    padding-top: 9.9rem;
   }
 }
 
 .section-title {
+  display: block;
   &::before {
     content: '';
     position: absolute;
@@ -22,7 +23,7 @@
     height: 0.2rem;
     @extend %bg-color-main;
     @include media-tablet {
-      top: 2.9rem;
+      top: 11.8rem;
     }
   }
   span {

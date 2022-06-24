@@ -2,17 +2,10 @@
   padding-bottom: 0.8rem;
 }
 .skills-title-wrapper {
-  padding-bottom: 5.3rem;
+  padding-bottom: 5.55rem;
 }
 .skills-items {
   @include grid(grid, repeat(4, 1fr), 4rem);
-<<<<<<< HEAD
-  padding-bottom: 1rem;
-  @include media-tablet {
-    padding: 1rem 0.4rem 8.8rem 0;
-  }
-=======
->>>>>>> portfolio
 }
 
 .skill-item {
@@ -20,29 +13,6 @@
   @extend %text-center;
   &:nth-child(1) {
     background-image: url('../icons/sprite.svg#i-skills-1');
-<<<<<<< HEAD
-    background-size: 6rem;
-    background-position: center -0.5rem;
-    @include media-tablet {
-      background-position: center top;
-    }
-  }
-  &:nth-child(2) {
-    background-image: url('../icons/sprite.svg#i-skills-2');
-    background-size: 5.8rem;
-    background-position: center -0.5rem;
-    @include media-tablet {
-      background-position: center top;
-    }
-  }
-  &:nth-child(3) {
-    background-image: url('../icons/sprite.svg#i-skills-3');
-    background-size: 6.4rem;
-    background-position: center -0.98rem;
-    @include media-tablet {
-      background-position: center top;
-    }
-=======
     background-size: 6.1rem;
     background-position: center top;
   }
@@ -53,47 +23,22 @@
   }
   &:nth-child(3) {
     background-image: url('../icons/sprite.svg#i-skills-3');
-    background-size: 6.5rem;
+    background-size: 6.45rem;
     background-position: center top;
->>>>>>> portfolio
   }
   &:nth-child(4) {
     background-image: url('../icons/sprite.svg#i-skills-4');
     background-size: 4.9rem;
-<<<<<<< HEAD
-    background-position: center 0.1rem;
-    @include media-tablet {
-      background-position: center top;
-    }
-=======
     background-position: center 0.7rem;
->>>>>>> portfolio
   }
 }
 
 .skill-item__title {
-<<<<<<< HEAD
-  padding-top: 10rem;
-  @include media-tablet {
-    padding-top: 8.5rem;
-  }
-}
-
-.skill-item__description {
-  max-width: 28rem;
-  padding: 2rem 2rem 0;
-=======
   padding-top: 10.7rem;
 }
 
 .skill-item__description {
   padding: 2rem 2rem 0.1rem 2rem;
->>>>>>> portfolio
   font-size: $fs-text;
   line-height: $lh-text;
-  @include media-tablet {
-    padding-top: 2rem;
-    padding-inline: 0;
-    line-height: 2.2rem;
-  }
 }
