@@ -1,6 +1,11 @@
+.skills__container {
+  padding-bottom: 0.8rem;
+}
+.skills-title-wrapper {
+  padding-bottom: 5.3rem;
+}
 .skills-items {
   @include grid(grid, repeat(4, 1fr), 4rem);
-  padding-bottom: 1rem;
 }
 
 .skill-item {
@@ -8,33 +13,32 @@
   @extend %text-center;
   &:nth-child(1) {
     background-image: url('../icons/sprite.svg#i-skills-1');
-    background-size: 6rem;
-    background-position: center -0.5rem;
+    background-size: 6.1rem;
+    background-position: center top;
   }
   &:nth-child(2) {
     background-image: url('../icons/sprite.svg#i-skills-2');
-    background-size: 5.8rem;
-    background-position: center -0.5rem;
+    background-size: 6.1rem;
+    background-position: center top;
   }
   &:nth-child(3) {
     background-image: url('../icons/sprite.svg#i-skills-3');
-    background-size: 6.4rem;
-    background-position: center -0.98rem;
+    background-size: 6.5rem;
+    background-position: center top;
   }
   &:nth-child(4) {
     background-image: url('../icons/sprite.svg#i-skills-4');
     background-size: 4.9rem;
-    background-position: center 0.1rem;
+    background-position: center 0.7rem;
   }
 }
 
 .skill-item__title {
-  padding-top: 10rem;
+  padding-top: 10.7rem;
 }
 
 .skill-item__description {
-  padding-top: 2rem;
-  padding-inline: 2rem;
+  padding: 2rem 2rem 0.1rem 2rem;
   font-size: $fs-text;
   line-height: $lh-text;
 }

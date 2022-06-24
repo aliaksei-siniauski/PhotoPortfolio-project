@@ -1,5 +1,7 @@
 .intro {
-  padding: 15.7rem 0 33rem 6.5rem;
+  padding-top: 15.7rem;
+  padding-left: 6.5rem;
+  padding-bottom: 33rem;
   background-image: url('../images/bg.webp');
   background-position: center -9.2rem;
   background-repeat: no-repeat;
@@ -9,15 +11,10 @@
   max-width: 50rem;
 }
 
-.intro-title {
-  @include font($ff-second, 6rem, 12rem, 700);
-}
-
 .intro-text {
-  padding-top: 1.2rem;
-  padding-right: 3rem;
+  padding: 1.1rem 3rem 0 0;
 }
 
 .intro-button {
-  margin-top: 2.4rem;
+  margin-top: 2.5rem;
 }
