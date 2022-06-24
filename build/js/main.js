@@ -1,0 +1,2 @@
+const e=document.querySelector(".burger"),t=document.querySelector(".header__nav"),l=document.querySelector(".nav-list"),o=(document.querySelectorAll(".nav-list__item"),document.querySelectorAll(".main"));e.addEventListener("click",(()=>{e.classList.toggle("open-menu"),t.classList.toggle("open-menu"),l.classList.toggle("open-menu"),o.forEach((e=>e.classList.toggle("opacity")))}));
+//# sourceMappingURL=main.js.map

@@ -9,6 +9,9 @@
   font-weight: 700;
   @extend %transition;
   @extend %cursor;
+  @include media-tablet {
+    margin-left: auto;
+  }
 }
 
 .language-active {

@@ -4,8 +4,14 @@
   @extend %align-center;
 }
 .header {
-  padding: 2.1rem 0;
+  padding: 2rem 0;
   background-image: url('../images/bg.webp');
   background-position: center 0;
   background-repeat: no-repeat;
+
+  @include media-tablet {
+    background-image: url('../images/bg-tablet.webp');
+    background-position: center 0;
+    background-repeat: no-repeat;
+  }
 }

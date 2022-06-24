@@ -1,20 +1,36 @@
 .intro {
-  padding-top: 15.7rem;
-  padding-left: 6.5rem;
-  padding-bottom: 33rem;
+  padding: 15.7rem 0 33rem 6.5rem;
   background-image: url('../images/bg.webp');
   background-position: center -9.2rem;
   background-repeat: no-repeat;
+  @include media-tablet {
+    padding-top: 7.75rem;
+    padding-left: 0;
+    background-image: url('../images/bg-tablet.webp');
+    background-repeat: no-repeat;
+    background-position: center -9.2rem;
+    padding-bottom: 15.2rem;
+  }
 }
 
 .intro-content {
   max-width: 50rem;
+  @include media-tablet {
+    max-width: 39rem;
+  }
 }
 
 .intro-text {
   padding: 1.1rem 3rem 0 0;
+  @include media-tablet {
+    padding: 2rem 0 0;
+    line-height: 2.4rem;
+  }
 }
 
 .intro-button {
   margin-top: 2.5rem;
+  @include media-tablet {
+    margin-top: 6rem;
+  }
 }

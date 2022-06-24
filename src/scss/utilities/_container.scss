@@ -2,4 +2,7 @@
   max-width: 143rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+  @include media-tablet {
+    max-width: $container-second;
+  }
 }
