@@ -24,5 +24,5 @@ h4 {
 }
 
 h5 {
-  @include font($ff-second, $fs-main, 4rem, 700);
+  @include font($ff-main, $fs-main, $lh-main, 700);
 }
